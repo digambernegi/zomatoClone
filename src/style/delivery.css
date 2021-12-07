@@ -1,0 +1,8 @@
+.deliveryScreen {
+    background-color: #F8F8F8;
+  }
+  
+  .deliveryScreen .title{
+    margin: 0 0 0 8rem;
+    padding: 20px 0 0px 0;
+  }

@@ -1,0 +1,83 @@
+.dineoutpage{
+}
+.dineout {
+  background:#F8F8F8;
+  margin-top: 0;
+  padding: 0 8rem;
+}
+
+.dineout__title{
+  color: rgb(28, 28, 28);
+  font-size: 2rem;
+  padding: 15px 0;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.dineout__subtitle{
+  font-size:20px;
+  line-height: 1.4;
+  font-weight: 300;
+  color: rgb(54, 54, 54);
+}
+
+.dineout .dineoutcollection {
+  padding: 15px 0 40px;
+  position: relative;
+}
+
+.dineout .dineout__image {
+  border-radius: 8px;
+  max-width: 91%;
+  position: relative;
+}
+
+.dineout .dineout__image img {
+  object-fit: cover;
+  height: 320px;
+  width: 250px;
+  border-radius: 8px;
+}
+
+.dineoutcollection .dine__title{
+  color: white;
+  position:absolute;
+  bottom: 30px;
+  left: 15px;
+  font-size: 20px;
+}
+
+
+.dineoutcollection .dine__subtitle{
+  color: white;
+  position:absolute;
+  bottom: 8px;
+  left: 15px;
+}
+
+.gradient {
+  position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 0.6rem;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+    0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
+}
+
+.dineoutfilter{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  position: sticky;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  transition: top 0.5s ease-in-out 0s;
+}
+
+.filter__itmes{
+  margin: 10px 0;
+}
+

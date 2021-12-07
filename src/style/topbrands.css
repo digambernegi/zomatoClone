@@ -1,0 +1,27 @@
+.brands .brand__image {
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  border: 1px solid #E8E8E8;
+  background: linear-gradient(to right, rgb(248, 248, 248) 0%, rgb(255, 255, 255) 10%, rgb(248, 248, 248) 40%, rgb(248, 248, 248) 100%) no-repeat rgb(248, 248, 248);
+  border-radius: 10%;
+  margin: 0 1rem;
+  
+}
+
+.brands .brand__image img {
+  height: 150px;
+  width:fit-content;
+  border-radius: inherit;
+}
+
+.brands .brand__time {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.2;
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem 0px;
+}

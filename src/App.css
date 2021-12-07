@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+.app {
+box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fa-location-pin:before, .fa-map-marker:before {
+  margin: 0 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.slick-arrow, .slick-next{
+  font-size: 0;
+  line-height: 0;
+  transform: translate(-15px, -30px);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: 0;
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 20%) 0px 3px 5px -1px, rgb(0 0 0 / 14%) 0px 6px 10px 0px, rgb(0 0 0 / 12%) 0px 1px 18px 0px;
+  border-radius: 50%;
+}
+
+.slick-next:before, .slick-prev:before {
+  color: lightslategrey;
+  width: 20px;
+  height: 20px; 
+}
+
+.slick-prev {
+  left: 0;
+  z-index: 1;
+}
+
+.common__width {
+    margin: auto;
+    max-width: 1100px;
+    background: white;
   }
-}
+  .title{
+    color: rgb(28, 28, 28);
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 500;
+    margin: 20px 0 30px 0;
+  }  
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .filtericon{
+    height: 15px;
+    margin:0 5px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  button {
+      border: 1px solid #cfcfcf;
+      background-color: white;
+      border-radius: 10px;
+      padding:10px;
+      align-items: center;
+      cursor: pointer;
+      height: 100%;
+      font-size: 14px;
+      border: 1px solid rgb(207, 207, 207);
+      color: rgb(156, 156, 156);
+      background-color: rgb(255, 255, 255);
+      box-shadow: rgb(54 54 54 / 6%) 0px 1px 2px;
+      margin-right: 10px;
+      display: flex;
+      justify-content: space-between;
   }
-}

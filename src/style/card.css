@@ -1,0 +1,139 @@
+.explore__card {
+  padding:10px;
+  border: 15px;
+  margin: 12px 0 24px 12px;
+  border-radius: 20px;
+  transition: all .3s ease;
+}
+
+.explore__card:hover{
+  background: white;
+  box-shadow: 0px 0px 5px 0.5px rgba(0,0,0,0.15);
+  transition: all .3s ease;
+}
+
+.explore__card .explore__image {
+  background-color: white;
+  height: 248px;
+  width: 328px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.explore__card .img {
+  height: 248px;
+  width: 328px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.explore__card .explore__time {
+  right: 15px;
+  bottom: 15px;
+  position: absolute;
+  border-radius: 5px;
+  color: #919191;
+  opacity: .8;
+  padding: 2px 5px 3px;
+  background-color: white;
+  backdrop-filter: blur(4px);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.explore__title{
+font-size: 15px;
+font-weight: 600;
+color:black;
+}
+.explore__card .pro-Off {
+  position: absolute;
+  font-size: 14px;
+  padding: 0 6px;
+  border-radius: 0 2px 2px 0;
+  overflow: hidden;
+  bottom: 40px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 18px;
+  font-weight: 500;
+  color: white;
+  background-color: #D92662;
+}
+.explore__card .gold-Off {
+  position: absolute;
+  font-size: 14px;
+  padding: 0 6px;
+  border-radius: 0 2px 2px 0;
+  overflow: hidden;
+  bottom: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 18px;
+  font-weight: 500;
+  color: white;
+  background-color: #D92662;
+}
+.explore__card .discount {
+  position: absolute; 
+  background-color: #256FEF;
+  color: white;
+  padding: 0 6px;
+  bottom: 15px;
+  border-radius: 0 2px 2px 0;
+  overflow: hidden;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.explore__card .explore__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 3px 5px 3px;
+  color: #919191;
+
+}
+
+.explore__card .explore__rating {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  font-family: 600;
+  color: white;
+  border-radius: 5px;
+  background-color: #267E3E;
+  display: flex;
+  align-items: center;
+  width: 12%;
+  text-align: center;
+  justify-content: center;
+}
+
+.staricon{
+  height: 12px;
+}
+
+
+.explore__card .explore__cuisines {
+  display: flex;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardseperator{
+  padding: 5px 0;
+}
+.explore__card .explore__bottom{
+  border-top: 1px solid #E8E8E8;
+  display: flex;
+  max-width: 20rem;
+  padding: 15px 2px;
+}
+
+.bottom__text{
+  margin:0 13px;
+  color: #919191;
+  font-size: 14px;
+}

@@ -1,0 +1,15 @@
+
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #DDDD;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  position: sticky;
+  background-color: white;
+  z-index: 2;
+  transition: top 0.5s ease-in-out 0s;
+}
+
+
+

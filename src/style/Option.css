@@ -1,0 +1,38 @@
+.center{
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.options{
+  display: flex;
+
+}
+
+.tab-item{
+  margin-right: 20px;
+  padding: 12px 110px 20px 5px;
+
+}
+
+.tab-name{
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.tab-image{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.tab-img{
+  margin-left: 15px;
+  height: 30px;
+  width: 30px;
+}
+
+.active-tab{
+  border-bottom: 2px solid red;
+}
